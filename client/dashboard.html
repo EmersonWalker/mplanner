@@ -1,8 +1,8 @@
 <template name="dashboard">
 {{#if currentUser}}
-  Hello {{signedInAs}}, welcome to mPlanner. A planning tool for kids and parents to help the student learn to plan.
+  <p>Hello {{signedInAs}}, welcome to mPlanner. A planning tool for kids and parents to help the student learn to plan.</p>
   {{> calendar}}
  {{else}}
- You don't have access to this page. You must <a href="/sign-up">sign up</a> or <a href="/sign-in">sign in</a> to continue.
+ <p>You don't have access to this page. You must <a href="/sign-up">sign up</a> or <a href="/sign-in">sign in</a> to continue.</p>
  {{/if}}
 </template>
