@@ -5,7 +5,11 @@
       </div>
       <div class='panel-body'>
         <p>Parents and students stop stressing over school work. Support the efforts of student planning.</p>
+        {{#if currentUser}}
+        <p>Currently signed in as <b>{{signedInAs}}</b>.</p>
+        {{else}}
         <p><a href='/sign-in'>Sign in</a> or <a href='/sign-up'>sign up</a> to get started.</p>
+        {{/if}}
       </div>
     </div>
 </template>
