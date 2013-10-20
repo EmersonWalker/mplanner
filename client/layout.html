@@ -1,0 +1,41 @@
+<head>
+	<title>mPlanner</title>
+</head>
+<template name="layout">
+	<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">mPlanner</a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+
+      {{#if currentUser}}
+        {{#if profileUrl}}
+          <li>
+            <a class='profileLink' href='{{profileUrl}}'>{{signedInAs}}</a>
+          </li>
+        {{else}}
+          <li>
+            <p class="navbar-text">{{signedInAs}}</p>
+          </li>
+        {{/if}}
+
+        <li>
+          <a href="/sign-out">Sign Out</a>
+        </li>
+        {{else}}
+        <li>
+          <a href="/sign-in">Sign In</a>
+        </li>
+
+        <li>
+          <a href="/sign-up">Sign Up</a>
+        </li>
+      {{/if}}
+      </ul>
+    </div>
+  </nav>
+
+  {{yield}}
+</template>
