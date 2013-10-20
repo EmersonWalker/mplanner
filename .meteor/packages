@@ -11,6 +11,5 @@ accounts-ui
 accounts-entry
 bootstrap-3
 coffeescript
-accounts-password
 iron-router
 accounts-google
