@@ -1,0 +1,29 @@
+#news {
+	margin-right: 400px;
+}
+
+#news-title, #welcome-title, #welcome-body {
+	text-align: center;
+}
+
+#block-right, #block-left {
+	background-color: blue;
+	visibility: visible;
+	display: block;
+}
+
+html {
+
+}
+
+#footer {
+	margin-bottom: 10px;
+}
+
+#navbar-link1 {
+	margin-right: 10px;
+}
+
+#navbar-link2 {
+	margin-right: 40px;
+}
