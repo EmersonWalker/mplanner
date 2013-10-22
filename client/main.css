@@ -1,19 +1,22 @@
-#news {
-	margin-right: 400px;
-}
-
 #news-title, #welcome-title, #welcome-body {
 	text-align: center;
 }
 
-#block-right, #block-left {
-	background-color: blue;
-	visibility: visible;
-	display: block;
+#welcome-title, #welcome-body {
+	margin-top: 20px;
 }
 
-html {
+#content #news {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
+#news {
+	margin-right: 400px;
+}
+
+#title {
+	text-align: center;
 }
 
 #footer {
