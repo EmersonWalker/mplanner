@@ -1,16 +1,14 @@
-<template name="profile">
-	<form>
-		<input type="text" name="username" value="{{signedInAs}}">
+<template name='profile'>
+  <div class="col col-lg-6">
+    <h2>Edit Profile</h2>
+    <div class="form-group">
+      <input class="form-control" type="text" id="name" placeholder="Name" value="{{signedInAs}}"></input>
+      <span class='errors'></span>
+    </div>
+    <a class='btn btn-primary done'><i class='icon-ok'></i> done</a>
+  </div>
 
-
-
-
-		<input type="submit" value="Submit">
-	</form>
-
-
-
-
-
-
+  <div class="col col-lg-6">
+    <h2>Preview Profile</h2>
+  </div>
 </template>
