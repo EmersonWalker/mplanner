@@ -1,27 +1,15 @@
 <template name="home">
-  <div class="panel panel-primary">
-    <div class="panel-heading" id="title">
-      <b>Home</b>
-    </div>
-  	<div class='panel panel-info' id="content">
-        <div class='panel-heading' id="welcome-title">
-          <b>Welcome to mPlanner</b>
-        </div>
-        <div class='panel-body' id="welcome-body">
-          <p>Parents and students, stop stressing over school work. Support the efforts of student planning.</p>
-          {{#if currentUser}}
-          <p>Currently signed in as <b><a href="/profile">{{signedInAs}}</a></b>.</p>
-          {{else}}
-          <p><a href='/sign-in'>Sign in</a> or <a href='/sign-up'>sign up</a> to get started.</p>
-          {{/if}}
-        </div>
+   <div class='panel panel-primary'>
+      <div class='panel-heading'>
+        Welcome to mPlanner
       </div>
-      <div class="panel panel-info" id="news" id="content">
-      	<div class="panel-heading" id="news-title"><b>News</b></div>
-      	<div class="panel-body">
-      		<div class="well well-sm">News could be posted here.</div>
-      		<div class="well well-sm"> </div>
-      		<div class="well well-sm"> </div>
+      <div class='panel-body'>
+        <p>Parents and students stop stressing over school work. Support the efforts of student planning.</p>
+        {{#if currentUser}}
+        <p>Currently signed in as <b>{{signedInAs}}</b>.</p>
+        {{else}}
+        <p><a href='/sign-in'>Sign in</a> or <a href='/sign-up'>sign up</a> to get started.</p>
+        {{/if}}
       </div>
     </div>
 </template>
