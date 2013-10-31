@@ -1,6 +1,8 @@
 Accounts.ui.config
   requestPermissions:
     google: ['openid email https://www.googleapis.com/auth/calendar']
+  requestOfflineToken:
+    google: true
 
 Meteor.startup ->
   if Meteor.user() && Meteor.user().profile.google
