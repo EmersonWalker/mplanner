@@ -2,7 +2,10 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "accounts-entry": {},
+      "accounts-entry": {
+        "git": "https://github.com/BeDifferential/accounts-entry.git",
+        "branch": "master"
+      },
       "bootstrap3-less": {},
       "bootstrap-3": {},
       "fullcalendar": {}
@@ -10,8 +13,8 @@
     "packages": {
       "accounts-entry": {
         "git": "https://github.com/BeDifferential/accounts-entry.git",
-        "tag": "v0.3.1",
-        "commit": "2b84dc445c1675a83e8931c92c415382320bcf52"
+        "branch": "master",
+        "commit": "1da3f08ca692fa8e464e8eeecf6765bc455b5067"
       },
       "bootstrap3-less": {
         "git": "https://github.com/eprochasson/bootstrap3-less",
