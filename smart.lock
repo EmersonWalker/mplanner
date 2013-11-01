@@ -2,20 +2,11 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "accounts-entry": {
-        "git": "https://github.com/BeDifferential/accounts-entry.git",
-        "branch": "master"
-      },
       "bootstrap3-less": {},
       "bootstrap-3": {},
       "fullcalendar": {}
     },
     "packages": {
-      "accounts-entry": {
-        "git": "https://github.com/BeDifferential/accounts-entry.git",
-        "branch": "master",
-        "commit": "1da3f08ca692fa8e464e8eeecf6765bc455b5067"
-      },
       "bootstrap3-less": {
         "git": "https://github.com/eprochasson/bootstrap3-less",
         "tag": "v0.1.4",
@@ -30,11 +21,6 @@
         "git": "https://github.com/TimHeckel/meteor-fullcalendar.git",
         "tag": "v1.6.1",
         "commit": "78dba7c564bf7baacf6556c70a3cc179d0e137c4"
-      },
-      "iron-router": {
-        "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.5.4",
-        "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
       },
       "jquery-ui": {
         "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",

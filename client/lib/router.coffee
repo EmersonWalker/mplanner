@@ -1,5 +1,5 @@
 Router.configure
-	layout: "layout"
+	layoutTemplate: "layout"
 
 Router.map ->
   @route 'home',
@@ -10,8 +10,6 @@ Router.map ->
 
     @route 'profile',
     path: '/profile'
-
-
 
 Template.profile.rendered = ->
   $('#bio').keydown( (event) ->

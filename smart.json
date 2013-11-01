@@ -1,8 +1,5 @@
 {
   "packages": {
-    "accounts-entry": {
-      "git": "https://github.com/BeDifferential/accounts-entry.git"
-    },
     "bootstrap3-less": {},
     "bootstrap-3": {},
     "fullcalendar": {}
