@@ -1,7 +1,12 @@
 {
   "packages": {
+    "iron-router": {
+      "git": "https://github.com/EventedMind/iron-router.git",
+      "branch": "shark"
+    },
     "bootstrap3-less": {},
     "bootstrap-3": {},
-    "fullcalendar": {}
+    "fullcalendar": {},
+    "accounts-entry": {}
   }
 }

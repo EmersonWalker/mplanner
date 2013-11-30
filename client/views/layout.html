@@ -13,13 +13,13 @@
     {{/if}}
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
-        {{accountButtons}}
+        {{> entryAccountButtons}}
       </ul>
     </div>
   </nav>
   <div class="container">
     <div class="row">
-    {{yield}}
+      {{> yield}}
     </div>
   </div>
   {{> footer}}
