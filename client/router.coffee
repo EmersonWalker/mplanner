@@ -22,6 +22,7 @@ Router.map ->
 
   @route 'home',
     path: '/'
+    layoutTemplate: 'homeLayout'
     before: ->
       if Meteor.loggingIn()
         @render 'loading'

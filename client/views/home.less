@@ -1,0 +1,106 @@
+#home {
+  .billboard {
+    margin-top: -20px;
+    background: url('/img/billboard-bg.jpg') top center no-repeat;
+    background-size: cover;
+    height: 450px;
+
+    h1 {
+      font-size: 100px;
+      line-height: 140px;
+      font-family: 'LeagueGothic', sans-serif;
+      color: #fff;
+      text-shadow: 1px 1px #444;
+    }
+
+
+
+    .intro-box {
+      float: left;
+      margin-top: 50px;
+
+      h2 {
+        color: #fff;
+        text-shadow: 1px 1px #444;
+        font-size: 1.2em;
+        margin-top: -30px;
+      }
+
+      h3 {
+        color: #fff;
+        text-shadow: 1px 1px #444;
+        font-size: 1.2em;
+        margin-top: 80px;
+        background-color: rgba(255,255,255,0.5);
+        padding: 30px;
+        a {
+          color: #9F9;
+          text-decoration: none;
+          &:hover {
+            color: #FFF;
+            border-bottom: 1px solid #FFF;
+          }
+        }
+      }
+    }
+
+    .iphone-mockup {
+      height: 550px;
+      float: right;
+      margin-top: 50px;
+    }
+  }
+
+  /* =======================================
+    CONTENT
+  ======================================= */
+
+  .content {
+    padding: 30px;
+    background-image: -ms-linear-gradient(top, #F7F7F7 0%, #FFFFFF 40%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(top, #F7F7F7 0%, #FFFFFF 40%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(top, #F7F7F7 0%, #FFFFFF 40%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F7F7F7), color-stop(0.4, #FFFFFF), color-stop(1, #FFFFFF)); 
+    background-image: -webkit-linear-gradient(top, #F7F7F7 0%, #FFFFFF 40%, #FFFFFF 100%);
+    background-image: linear-gradient(to bottom, #F7F7F7 0%, #FFFFFF 40%, #FFFFFF 100%);
+  }
+
+  .content .span8 {
+    margin-left: 0px;
+  }
+
+   /* =======================================
+    FOOTER
+  ======================================= */
+
+  footer {
+    margin-top: 50px;
+    bottom: 0px;
+    height: 40px;
+  }
+
+  footer .copyright {
+    float: left;
+  }
+
+  footer .footer-menu {
+    float: right;
+  }
+
+  .footer-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('/fonts/LeagueGothic-Regular-webfont.eot');
+    src: url('/fonts/LeagueGothic-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/LeagueGothic-Regular-webfont.woff') format('woff'),
+         url('/fonts/LeagueGothic-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/LeagueGothic-Regular-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
