@@ -17,6 +17,8 @@ Router.configure
 Router.map ->
   @route 'sponsors'
   @route 'pricing'
+  @route 'termsOfUse', path: 'terms'
+  @route 'privacy'
 
   @route 'home',
     path: '/'
