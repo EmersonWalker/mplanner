@@ -13,6 +13,6 @@ coffeescript
 iron-router
 accounts-google
 fullcalendar
-accounts-password
 blog
 less
+accounts-password

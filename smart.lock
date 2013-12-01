@@ -16,7 +16,8 @@
       "blog": {
         "git": "https://github.com/BeDifferential/meteor-blog.git",
         "branch": "shark"
-      }
+      },
+      "profile": {}
     },
     "packages": {
       "accounts-entry": {
@@ -48,6 +49,11 @@
         "git": "https://github.com/BeDifferential/meteor-blog.git",
         "branch": "shark",
         "commit": "405069bb259f3848e01c6e6a49050ade408e05df"
+      },
+      "profile": {
+        "git": "https://github.com/BeDifferential/meteor-profile.git",
+        "tag": "v0.0.4",
+        "commit": "182c13ce5aeb794f91f3ed4ca0394a0b5eb4651c"
       },
       "jquery-ui": {
         "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
