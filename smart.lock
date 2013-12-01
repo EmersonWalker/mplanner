@@ -13,7 +13,10 @@
       "bootstrap3-less": {},
       "bootstrap-3": {},
       "fullcalendar": {},
-      "blog": {}
+      "blog": {
+        "git": "https://github.com/BeDifferential/meteor-blog.git",
+        "branch": "shark"
+      }
     },
     "packages": {
       "accounts-entry": {
@@ -43,8 +46,8 @@
       },
       "blog": {
         "git": "https://github.com/BeDifferential/meteor-blog.git",
-        "tag": "v0.2.2",
-        "commit": "9c9a88e8ccc0dbce72762fea1dcfc56e6af0122b"
+        "branch": "shark",
+        "commit": "405069bb259f3848e01c6e6a49050ade408e05df"
       },
       "jquery-ui": {
         "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
