@@ -12,7 +12,8 @@
       },
       "bootstrap3-less": {},
       "bootstrap-3": {},
-      "fullcalendar": {}
+      "fullcalendar": {},
+      "blog": {}
     },
     "packages": {
       "accounts-entry": {
@@ -40,10 +41,40 @@
         "tag": "v1.6.1",
         "commit": "78dba7c564bf7baacf6556c70a3cc179d0e137c4"
       },
+      "blog": {
+        "git": "https://github.com/BeDifferential/meteor-blog.git",
+        "tag": "v0.2.2",
+        "commit": "9c9a88e8ccc0dbce72762fea1dcfc56e6af0122b"
+      },
       "jquery-ui": {
         "git": "https://github.com/TimHeckel/meteor-jquery-ui.git",
         "tag": "v1.9.2",
         "commit": "c437d45edcf1367df8d5ffa8bad2867758030bd2"
+      },
+      "parsleyjs": {
+        "git": "https://github.com/nate-strauser/meteor-parsleyjs.git",
+        "tag": "v1.1.7",
+        "commit": "035a1e56a78e50369686b7e281aa71e3daf3729a"
+      },
+      "minimongoid": {
+        "git": "https://github.com/Exygy/minimongoid.git",
+        "tag": "v0.8.3",
+        "commit": "8a4849426f1775f9886f303067e50877696fae43"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.2.1",
+        "commit": "9ee12e714afe56b189f53076447b7b54f3012065"
+      },
+      "urlify2": {
+        "git": "https://github.com/peerlibrary/meteor-urlify2.git",
+        "tag": "v0.1.1",
+        "commit": "5b6677b01382e470bd22e6a4a8a0d4399d7900d7"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
       }
     }
   }
