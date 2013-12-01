@@ -15,6 +15,9 @@ Router.configure
         return @redirect 'entrySignIn'
 
 Router.map ->
+  @route 'sponsors'
+  @route 'pricing'
+
   @route 'home',
     path: '/'
     before: ->
@@ -24,8 +27,6 @@ Router.map ->
       else
         if Meteor.user()
           return @redirect 'dashboard'
-
-  @route 'sponsors'
 
   @route 'dashboard',
     controller: 'AdminController'
