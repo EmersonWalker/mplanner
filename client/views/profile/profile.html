@@ -6,22 +6,15 @@
           <h2>Edit Profile</h2>
           <div class="alert alert-danger hidden"></div>
           <div class="form-group well">
-            <label class="radio-inline">
+            <ul class="nav nav-pills">
               {{#if typeIsStudent}}
-              <input id="student" type="radio" name="typeRadios" checked>
+              <li class="active"><a href="#" id="student">Student</a></li>
+              <li><a href="#" id="parent">Parent</a></li>
               {{else}}
-              <input id="student" type="radio" name="typeRadios">
+              <li><a href="#" id="student">Student</a></li>
+              <li class="active"><a href="#" id="parent">Parent</a></li>
               {{/if}}
-              Student
-            </label>
-            <label class="radio-inline">
-              {{#if typeIsParent}}
-              <input id="parent" type="radio" name="typeRadios" checked>
-              {{else}}
-              <input id="parent" type="radio" name="typeRadios">
-              {{/if}}
-              Parent
-            </label>
+            </ul>
           </div>
           <div class="form-group">
             <input class="form-control" type="email" id="email" placeholder="Email" value="{{email}}"></input>
@@ -32,7 +25,7 @@
           <div class="form-group">
             <input class="form-control" type="text" id="lastName" placeholder="Last Name" value="{{lastName}}"></input>
           </div>
-          <a class='btn btn-primary done'><i class='icon-ok'></i> done</a>
+          <a href="/" class='btn btn-primary done'><i class='icon-ok'></i> done</a>
         </div>
 
       </div>
