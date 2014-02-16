@@ -1,6 +1,8 @@
 {
   "packages": {
-    "accounts-entry": {},
+    "accounts-entry": {
+      "git": "git@github.com:BeDifferential/accounts-entry.git"
+    },
     "iron-router": {},
     "bootstrap3-less": {},
     "bootstrap-3": {},
