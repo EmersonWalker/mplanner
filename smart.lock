@@ -11,13 +11,14 @@
       "bootstrap-3": {},
       "fullcalendar": {},
       "blog": {},
-      "profile": {}
+      "profile": {},
+      "font-awesome": {}
     },
     "packages": {
       "accounts-entry": {
         "git": "git@github.com:BeDifferential/accounts-entry.git",
         "branch": "master",
-        "commit": "1afc798360ec7756507b284ceb09c1a63ab874db"
+        "commit": "549c280922600961c542487844135d489f5f01c0"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
@@ -48,6 +49,11 @@
         "git": "https://github.com/BeDifferential/meteor-profile.git",
         "tag": "v0.0.8",
         "commit": "a79eed39b871d4c384b76d77b78e318eb2f300fd"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.0.3",
+        "commit": "61e9361384347547ae144f8228faa4deffda23db"
       },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",
