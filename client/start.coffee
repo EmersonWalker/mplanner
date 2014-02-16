@@ -1,13 +1,11 @@
 Meteor.startup ->
   Accounts.ui.config
-    passwordSignupFields: 'USERNAME_AND_EMAIL'
     requestPermissions:
       google: ['openid email https://www.googleapis.com/auth/calendar']
     requestOfflineToken:
       google: true
 
   AccountsEntry.config
-    showSignupCode: true
     profileRoute: 'profile'
 
   if Meteor.user() && Meteor.user().profile.google
